@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parent{
+    background-color: white;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.parent img{
+    width: 100%;
+}
+
+.mark{
+    background-color: yellow;
+    padding: 4px;
+    width: fit-content;
+}
+
+
+.parent div{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    gap: 10px;
+}
